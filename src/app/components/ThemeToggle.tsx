@@ -10,6 +10,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/app/components/ui/dropdown-menu";
+import { memo } from "react";
 
 const ThemeToggle = () => {
   const { setTheme } = useTheme();
@@ -38,4 +39,4 @@ const ThemeToggle = () => {
   );
 };
 
-export default ThemeToggle;
+export default memo(ThemeToggle);

@@ -4,7 +4,7 @@ import { BikeIcon } from "lucide-react";
 import { memo } from "react";
 import ThemeToggle from "./ThemeToggle";
 
-const NavigationHeader = () => {
+const Header = () => {
   return (
     <header className="p-4 mb-4 lg:border-b-2 lg:border-b-muted">
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
@@ -31,4 +31,4 @@ const NavigationHeader = () => {
   );
 };
 
-export default memo(NavigationHeader);
+export default memo(Header);

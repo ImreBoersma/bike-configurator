@@ -4,15 +4,17 @@ import { useEffect, useMemo, useState } from "react";
 import ColorSelector from "./ui/color-picker";
 import OptionSelect from "./ui/option-select";
 
+type DetailsPaneProps = Readonly<{
+  options?: Partial<BikeOptions>;
+  basePrice: number;
+  onColorChange: (color: string) => void;
+}>;
+
 const DetailsPane = ({
   options,
   basePrice,
   onColorChange,
-}: Readonly<{
-  options?: Partial<BikeOptions>;
-  basePrice: number;
-  onColorChange: (color: string) => void;
-}>) => {
+}: DetailsPaneProps) => {
   const [selected, setSelected] = useState<
     Partial<Record<keyof BikeOptions, Option>>
   >({});

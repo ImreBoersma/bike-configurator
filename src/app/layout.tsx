@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Roboto, Roboto_Mono } from "next/font/google";
 import "./globals.css";
-import NavigationHeader from "./components/Header";
+import Header from "./components/Header";
 import { ThemeProvider } from "./components/ThemeProvider";
 
 const robotoSans = Roboto({
@@ -37,7 +37,7 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
-            <NavigationHeader />
+            <Header />
             {children}
           </ThemeProvider>
         </div>
