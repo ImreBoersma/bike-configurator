@@ -40,6 +40,12 @@ const Home = () => {
         <ImageGallery images={displayedImages} />
       </div>
       <div className="rounded lg:col-span-1">
+        <h1 className="text-2xl font-bold text-center lg:text-start">
+          {data?.[0].name}
+        </h1>
+        <p className="text-sm text-muted-foreground text-center lg:text-start">
+          {data?.[0].description}
+        </p>
         <DetailsPane
           options={data?.[0].options}
           basePrice={data?.[0].basePrice || 0}

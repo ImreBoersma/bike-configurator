@@ -59,7 +59,7 @@ const DetailsPane = ({
   };
 
   return (
-    <div className="p-6 max-w-96 my-0 mx-auto">
+    <div className="py-6 lg:max-w-96 my-0 mx-auto lg:mx-0">
       {Object.entries(options ?? {})
         .filter(([category, opts]) => category !== "color" && opts?.length)
         .map(([category, opts]) => (
