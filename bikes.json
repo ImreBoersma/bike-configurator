@@ -1,0 +1,90 @@
+[
+  {
+    "id": "1",
+    "name": "S-Works Aethos",
+    "type": "Racefiets",
+    "basePrice": 13499,
+    "description": "De lichtste productiefiets die ooit gemaakt is om meer renners de perfecte fiets te bieden.",
+    "images": [
+      "https://assets.specialized.com/i/specialized/97226-03_AETHOS-SW-AXS-SNDSTNMET-REDTNT-SILPRL_HERO_DARK-PDP?$scom-pdp-product-image-xl-premium$&fmt=webp",
+      "https://assets.specialized.com/i/specialized/97226-03_AETHOS-SW-AXS-SNDSTNMET-REDTNT-SILPRL_FDSQ_DARK?$scom-pdp-product-image-xl-premium$&fmt=webp",
+      "https://assets.specialized.com/i/specialized/97226-03_AETHOS-SW-AXS-SNDSTNMET-REDTNT-SILPRL_RDSQ_DARK?$scom-pdp-product-image-xl-premium$&fmt=webp",
+      "https://assets.specialized.com/i/specialized/97226-03_AETHOS-SW-AXS-SNDSTNMET-REDTNT-SILPRL_D1-POV_DARK?$scom-pdp-product-image-xl-premium$&fmt=webp",
+      "https://assets.specialized.com/i/specialized/97226-03_AETHOS-SW-AXS-SNDSTNMET-REDTNT-SILPRL_D3-HT_DARK?$scom-pdp-product-image-xl-premium$&fmt=webp",
+      "https://assets.specialized.com/i/specialized/97226-03_AETHOS-SW-AXS-SNDSTNMET-REDTNT-SILPRL_D4-STTT_DARK?$scom-pdp-product-image-xl-premium$&fmt=webp"
+    ],
+    "options": {
+      "frameSize": [
+        { "name": "49", "priceModifier": 0 },
+        { "name": "52", "priceModifier": 0 },
+        { "name": "54", "priceModifier": 50 },
+        { "name": "56", "priceModifier": 200 },
+        { "name": "58", "priceModifier": 200 },
+        { "name": "61", "priceModifier": 300 }
+      ],
+      "color": [
+        {
+          "name": "Satin Doppio / Gunmetal Dry Brushed / Gold Pearl",
+          "priceModifier": 0,
+          "selectorColors": ["#6d6364", "#b29a82"],
+          "images": [
+            "https://assets.specialized.com/i/specialized/97225-00_AETHOS-SW-ETAP-DOP-BRSH-GLDPRL_HERO-PDP",
+            "https://assets.specialized.com/i/specialized/97225-00_AETHOS-SW-ETAP-DOP-BRSH-GLDPRL_FDSQ",
+            "https://assets.specialized.com/i/specialized/97225-00_AETHOS-SW-ETAP-DOP-BRSH-GLDPRL_RDSQ",
+            "https://assets.specialized.com/i/specialized/97225-00_AETHOS-SW-ETAP-DOP-BRSH-GLDPRL_D1-POV",
+            "https://assets.specialized.com/i/specialized/97225-00_AETHOS-SW-ETAP-DOP-BRSH-GLDPRL_D3-HT",
+            "https://assets.specialized.com/i/specialized/97225-00_AETHOS-SW-ETAP-DOP-BRSH-GLDPRL_D4-STTT"
+          ]
+        },
+        {
+          "name": "Satin Birch / Black Pearl",
+          "priceModifier": 150,
+          "selectorColors": ["#dcdbd6", "#a9a6a0"],
+          "images": [
+            "https://assets.specialized.com/i/specialized/97222-05_AETHOS-SW-LTD-BRCH-BLKPRL_HERO",
+            "https://assets.specialized.com/i/specialized/97222-05_AETHOS-SW-LTD-BRCH-BLKPRL_FDSQ",
+            "https://assets.specialized.com/i/specialized/97222-05_AETHOS-SW-LTD-BRCH-BLKPRL_RDSQ",
+            "https://assets.specialized.com/i/specialized/97222-05_AETHOS-SW-LTD-BRCH-BLKPRL_D1-POV",
+            "https://assets.specialized.com/i/specialized/97222-05_AETHOS-SW-LTD-BRCH-BLKPRL_D3-HT",
+            "https://assets.specialized.com/i/specialized/97222-05_AETHOS-SW-LTD-BRCH-BLKPRL_D4-STTT"
+          ]
+        },
+        {
+          "name": "Gloss Birch/Abalone-lapis organic color Run/Dune",
+          "priceModifier": 200,
+          "selectorColors": ["#c1c1c3"],
+          "images": [
+            "https://assets.specialized.com/i/specialized/97223-00_AETHOS-SW-DI2-BRCH-ABLN-DUNEWHT_HERO",
+            "https://assets.specialized.com/i/specialized/97223-00_AETHOS-SW-DI2-BRCH-ABLN-DUNEWHT_FDSQ",
+            "https://assets.specialized.com/i/specialized/97223-00_AETHOS-SW-DI2-BRCH-ABLN-DUNEWHT_RDSQ",
+            "https://assets.specialized.com/i/specialized/97223-00_AETHOS-SW-DI2-BRCH-ABLN-DUNEWHT_D1-POV",
+            "https://assets.specialized.com/i/specialized/97223-00_AETHOS-SW-DI2-BRCH-ABLN-DUNEWHT_D3-HT",
+            "https://assets.specialized.com/i/specialized/97223-00_AETHOS-SW-DI2-BRCH-ABLN-DUNEWHT_D4-STTT"
+          ]
+        },
+        {
+          "name": "Gloss Obsidian/Lapis + Abalone Organic Color Run/Obsidian",
+          "priceModifier": 250,
+          "selectorColors": ["#73646a", "#9ebab0"],
+          "images": [
+            "https://assets.specialized.com/i/specialized/97223-01_AETHOS-SW-DI2-OBSD-ABLN-OBSD_HERO",
+            "https://assets.specialized.com/i/specialized/97223-01_AETHOS-SW-DI2-OBSD-ABLN-OBSD_FDSQ",
+            "https://assets.specialized.com/i/specialized/97223-01_AETHOS-SW-DI2-OBSD-ABLN-OBSD_RDSQ",
+            "https://assets.specialized.com/i/specialized/97223-01_AETHOS-SW-DI2-OBSD-ABLN-OBSD_D1-POV",
+            "https://assets.specialized.com/i/specialized/97223-01_AETHOS-SW-DI2-OBSD-ABLN-OBSD_D3-HT",
+            "https://assets.specialized.com/i/specialized/97223-01_AETHOS-SW-DI2-OBSD-ABLN-OBSD_D4-STTT"
+          ]
+        }
+      ],
+      "wheelset": [
+        { "name": "S-works Turbo 2BR, 700x28mm", "priceModifier": 0 },
+        { "name": "Roval Rapide CLX", "priceModifier": 800 }
+      ],
+      "gearset": [
+        { "name": "SRAM RED AXS", "priceModifier": 0 },
+        { "name": "Campagnolo Super Record", "priceModifier": 300 },
+        { "name": "Shimano Dura-Ace Di2", "priceModifier": 400 }
+      ]
+    }
+  }
+]
