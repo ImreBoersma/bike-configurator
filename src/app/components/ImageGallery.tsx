@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { memo, useEffect, useState } from "react";
 import { Card, CardContent } from "@/app/components/ui/card";
 import {
   Carousel,
@@ -16,7 +16,7 @@ type ImageGalleryProps = Readonly<{
   images: ReadonlyArray<string>;
 }>;
 
-export const ImageGallery = ({ images }: ImageGalleryProps) => {
+const ImageGallery = ({ images }: ImageGalleryProps) => {
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [carouselApi, setCarouselApi] = useState<CarouselApi | null>(null);
 
@@ -58,13 +58,15 @@ export const ImageGallery = ({ images }: ImageGalleryProps) => {
         <Card>
           <CardContent className="flex items-center justify-center">
             <div className="w-full h-[400px] md:h-[500px] lg:h-[600px] relative">
-              <Image
-                src={selectedImage}
-                alt=""
-                fill
-                className="rounded-xl object-contain"
-                priority
-              />
+              {selectedImage && (
+                <Image
+                  src={selectedImage}
+                  alt=""
+                  fill
+                  className="rounded-xl object-contain"
+                  priority
+                />
+              )}
             </div>
           </CardContent>
         </Card>
@@ -115,4 +117,4 @@ export const ImageGallery = ({ images }: ImageGalleryProps) => {
   );
 };
 
-export default ImageGallery;
+export default memo(ImageGallery);

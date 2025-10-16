@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { memo, useEffect, useMemo, useState } from "react";
 import ColorSelector from "./ui/color-picker";
 import OptionSelect from "./ui/option-select";
 
@@ -93,4 +93,4 @@ const DetailsPane = ({
   );
 };
 
-export default DetailsPane;
+export default memo(DetailsPane);
