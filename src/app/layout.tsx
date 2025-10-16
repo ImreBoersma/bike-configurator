@@ -25,9 +25,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="nl">
+    <html lang="nl" suppressHydrationWarning>
       <body
-        suppressHydrationWarning
         className={`${robotoSans.variable} ${robotoMono.variable} antialiased`}
       >
         <div className="container mx-auto">
